@@ -25,3 +25,5 @@ sudo cp tomcat-users.xml /opt/apache-tomcat-7.0.82/conf/
 echo "### Restart tomcat services ###"
 sudo /bin/bash /opt/apache-tomcat-7.0.82/bin/shutdown.sh
 sudo /bin/bash /opt/apache-tomcat-7.0.82/bin/startup.sh
+
+echo "tomcat started"
